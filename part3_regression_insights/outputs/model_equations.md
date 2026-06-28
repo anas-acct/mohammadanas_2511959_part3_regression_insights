@@ -1,5 +1,3 @@
-<img width="193" height="24" alt="image" src="https://github.com/user-attachments/assets/c995b748-df0a-4c17-a073-758fb54f0ee2" /># Model Equations and Interpretations
-
 ## Dummy Variable Approach (Task 3)
 To include categorical data in the regression models, we converted categorical variables into binary dummy variables (1 or 0). 
 
