@@ -55,8 +55,3 @@ For every additional customer visiting the store (footfall), monthly sales are e
 
 **6. Is the variable useful?**
 Yes, this variable appears highly useful because the p-value is practically zero, well below the standard 0.05 threshold of statistical significance.
-**5. Business Interpretation:**
-For every additional customer visiting the store (footfall), monthly sales are expected to change by [Insert Coefficient amount], assuming all other factors remain constant.
-
-**6. Is the variable useful?**
-[If the P-value is less than 0.05, write: "Yes, this variable appears highly useful because the p-value is below the standard 0.05 threshold of statistical significance." If it is above 0.05, write: "No, this variable does not appear statistically useful as a standalone predictor because the p-value is above 0.05."]
