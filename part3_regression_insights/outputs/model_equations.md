@@ -55,3 +55,31 @@ For every additional customer visiting the store (footfall), monthly sales are e
 
 **6. Is the variable useful?**
 Yes, this variable appears highly useful because the p-value is practically zero, well below the standard 0.05 threshold of statistical significance.
+
+## Multiple Regression Model (Task 5)
+
+### Model 3: Combined Business Drivers
+* **Dependent Variable:** `monthly_sales`
+* **Independent Variables:** `marketing_spend`, `footfall`, `avg_discount_pct`, `type_Mall`, `type_HighStreet`, `type_Airport`
+
+**1. Multiple Regression Equation:**
+Monthly Sales = 39818.07 + (9.88 * marketing_spend) + (15.66 * footfall) - (15494.70 * avg_discount_pct) + (630.99 * type_Mall) - (1061.74 * type_HighStreet) + (18649.34 * type_Airport)
+
+**2. R-squared:** 0.9721
+*(This means an impressive 97.21% of the variance in monthly sales is explained by this combination of variables).*
+
+**3. Intercept Interpretation:**
+$39,818.07 is the expected monthly sales if all other variables were zero (zero marketing spend, zero footfall, zero discounts) and the store was our reference category (Residential).
+
+**4. Business Meaning & Direction of Coefficients:**
+* **`marketing_spend` (+9.88, P-value = 3.64E-51):** Strong positive relationship. Every additional $1 spent on marketing yields $9.88 in sales.
+* **`footfall` (+15.66, P-value = 2.44E-120):** Strong positive relationship. Every additional customer visit yields $15.66 in sales.
+* **`avg_discount_pct` (-15494.70, P-value = 1.37E-13):** Strong negative relationship. Assuming discounts are entered as decimals (e.g., 10% = 0.10), a 1% increase in average discount decreases monthly sales by $154.95. While discounts may drive some volume, they heavily eat into overall sales revenue.
+
+**5. Dummy Variable Interpretation (Compared to `Residential`):**
+* **`type_Airport` (+18649.34, P-value = 1.25E-103):** Airport stores generate $18,649.34 more in monthly sales than Residential stores. This is a highly significant positive driver.
+* **`type_HighStreet` (-1061.74, P-value = 0.0016):** High Street stores generate $1,061.74 less in monthly sales than Residential stores. 
+
+**6. Statistically Weak Variables:**
+* **`type_Mall` (+630.99, P-value = 0.0527):** This variable is statistically weak because its p-value is slightly above the standard 0.05 threshold. While Mall stores appear to generate slightly more sales than Residential stores, the evidence is not statistically definitive enough to make firm business decisions on this specific comparison.
+
