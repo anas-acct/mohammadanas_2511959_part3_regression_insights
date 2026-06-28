@@ -1,4 +1,4 @@
-# Model Equations and Interpretations
+<img width="193" height="24" alt="image" src="https://github.com/user-attachments/assets/c995b748-df0a-4c17-a073-758fb54f0ee2" /># Model Equations and Interpretations
 
 ## Dummy Variable Approach (Task 3)
 To include categorical data in the regression models, we converted categorical variables into binary dummy variables (1 or 0). 
@@ -21,19 +21,19 @@ Because `residential` is the reference category, its value is implicitly capture
 * **Independent Variable:** `marketing_spend`
 
 **1. Regression Equation:**
-Monthly Sales = [Insert Intercept Coefficient] + ([Insert marketing_spend Coefficient] * marketing_spend)
+Monthly Sales = 51240.23 + (15.66 * marketing_spend)
 
-**2. R-squared:** [Insert R Square value]
-*(This means that [Insert R Square as a %] of the variance in monthly sales is explained by marketing spend).*
+**2. R-squared:** 0.6681
+*(This means that 66.81% of the variance in monthly sales is explained by marketing spend).*
 
-**3. Coefficient:** [Insert marketing_spend Coefficient]
-**4. P-value:** [Insert marketing_spend P-value]
+**3. Coefficient:** 15.66
+**4. P-value:** 2.15E-240 (Effectively 0.000)
 
 **5. Business Interpretation:**
-For every additional unit (e.g., $1) spent on marketing, monthly sales are expected to change by [Insert Coefficient amount], assuming all other factors remain constant. 
+For every additional unit ($1) spent on marketing, monthly sales are expected to increase by $15.66, assuming all other factors remain constant. 
 
 **6. Is the variable useful?**
-[If the P-value is less than 0.05, write: "Yes, this variable appears highly useful because the p-value is below the standard 0.05 threshold of statistical significance." If it is above 0.05, write: "No, this variable does not appear statistically useful as a standalone predictor because the p-value is above 0.05."]
+Yes, this variable appears highly useful because the p-value is practically zero, which is well below the standard 0.05 threshold of statistical significance.
 
 ---
 
@@ -42,14 +42,19 @@ For every additional unit (e.g., $1) spent on marketing, monthly sales are expec
 * **Independent Variable:** `footfall`
 
 **1. Regression Equation:**
-Monthly Sales = [Insert Intercept Coefficient] + ([Insert footfall Coefficient] * footfall)
+Monthly Sales = 11520.15 + (21.06 * footfall)
 
-**2. R-squared:** [Insert R Square value]
-*(This means that [Insert R Square as a %] of the variance in monthly sales is explained by footfall).*
+**2. R-squared:** 0.7548
+*(This means that 75.48% of the variance in monthly sales is explained by footfall).*
 
-**3. Coefficient:** [Insert footfall Coefficient]
-**4. P-value:** [Insert footfall P-value]
+**3. Coefficient:** 21.06
+**4. P-value:** 1.13E-306 (Effectively 0.000)
 
+**5. Business Interpretation:**
+For every additional customer visiting the store (footfall), monthly sales are expected to increase by $21.06, assuming all other factors remain constant.
+
+**6. Is the variable useful?**
+Yes, this variable appears highly useful because the p-value is practically zero, well below the standard 0.05 threshold of statistical significance.
 **5. Business Interpretation:**
 For every additional customer visiting the store (footfall), monthly sales are expected to change by [Insert Coefficient amount], assuming all other factors remain constant.
 
