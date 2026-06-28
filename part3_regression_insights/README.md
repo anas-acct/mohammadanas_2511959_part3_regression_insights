@@ -204,6 +204,6 @@ Key findings include:
 The following screenshots provide visual evidence of the regression execution, residual analysis, and model comparisons performed during this study.
 
 * **![Simple Regression Output](screenshots/simple_regression_output.png)** Figure 01: Statistical summary of the simple regression models.
-* **![Multiple Regression Output](multiple_regression_output.png)** Figure 02: Statistical summary of the multiple regression model.
-* **![Residuals Preview](residuals_preview.png)** Figure 03: Predicted values and residual calculations.
-* **![Model Comparison Preview](model_comparison_preview.png)** Figure 04: Comparison of all regression models and their R² values.
+* **![Multiple Regression Output](screenshots/multiple_regression_output.png)** Figure 02: Statistical summary of the multiple regression model.
+* **![Residuals Preview](screenshots/residuals_preview.png)** Figure 03: Predicted values and residual calculations.
+* **![Model Comparison Preview](screenshots/model_comparison_preview.png)** Figure 04: Comparison of all regression models and their R² values.
