@@ -25,6 +25,7 @@ Monthly Sales = 51240.23 + (15.66 * marketing_spend)
 *(This means that 66.81% of the variance in monthly sales is explained by marketing spend).*
 
 **3. Coefficient:** 15.66
+
 **4. P-value:** 2.15E-240 (Effectively 0.000)
 
 **5. Business Interpretation:**
@@ -46,6 +47,7 @@ Monthly Sales = 11520.15 + (21.06 * footfall)
 *(This means that 75.48% of the variance in monthly sales is explained by footfall).*
 
 **3. Coefficient:** 21.06
+
 **4. P-value:** 1.13E-306 (Effectively 0.000)
 
 **5. Business Interpretation:**
